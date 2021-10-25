@@ -112,6 +112,15 @@ header {
   font-size: 25px;
   margin-top: 30px;
   margin-bottom: 30px;
+  text-align: justify;
+}
+
+.aboutTextFirst {
+  color: white;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  text-align: justify;
 }
 
 #projects {
@@ -126,41 +135,92 @@ header {
   margin-bottom: 140px;
 }
 
-.configuratorContainer {
+.projectContainer {
   width: 60%;
   margin-left: 20%;
   display: flex;
-  margin-bottom: 70px;
+  margin-bottom: 140px;
 }
 
-.configuratorImg {
+.projectImg {
   width: 344px;
   height: 344px;
 }
 
-.configuratorText {
+.projectText {
   width: 60%;
   margin-left: 10%;
 }
 
-.configuratorText h2 {
+.projectText h2 {
   margin-top: 0;
   font-size: 45.6px;
   font-weight: 400;
 }
 
-.configuratorText p {
+.projectText p {
   font-size: 18px;
 }
 
-.configuratorText ul {
+.projectText ul {
   display: flex;
   padding: 0;
 }
 
-.configuratorText a {
+.projectText a {
   color: black;
   font-size: 22px;
   margin-right: 2rem;
   font-weight: 400;
+}
+
+.projectTextRight {
+  width: 60%;
+  margin-right: 10%;
+}
+
+.projectTextRight h2 {
+  margin-top: 0;
+  font-size: 45.6px;
+  font-weight: 400;
+}
+
+.projectTextRight p {
+  font-size: 18px;
+}
+
+.projectTextRight ul {
+  display: flex;
+  padding: 0;
+}
+
+.projectTextRight a {
+  color: black;
+  font-size: 22px;
+  margin-right: 2rem;
+  font-weight: 400;
+}
+
+#contact {
+  width: 100%;
+  min-height: 60vh;
+  background-color: rgba(255, 0, 0, 0.65);
+  display: flex;
+  justify-content: center;
+}
+
+.contactText {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 30%;
+}
+
+.contactText span {
+  font-weight: 500;
+  color: #9e0000;
+}
+
+.contactContainer {
+  width: 32%;
 }
