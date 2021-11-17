@@ -15,7 +15,6 @@ function animateLanding() {
   ];
 
   const photo = document.querySelector(".portrait");
-
   const animationPhoto = photo.animate(keayframesPhoto, landing);
 
   const keayframesHeadingName = [
@@ -32,6 +31,16 @@ function animateLanding() {
   ];
 
   const headingDesc = document.querySelector(".description");
-
   const animationHeadingDesc = headingDesc.animate(keayframesHeadingDescription, landing);
+
+  animateProjects();
+}
+
+function animateProjects() {
+  gsap.to(".projectContainer", {
+    duration: 1,
+
+    //opacity: 1,
+    scrollTrigger: { trigger: ".projectContainer", start: "top 80%", end: "top 20%" },
+  });
 }
