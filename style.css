@@ -134,7 +134,7 @@ header {
   font-size: 68.4px;
   text-align: center;
   margin-top: 0;
-  margin-bottom: 140px;
+  margin-bottom: 240px;
 }
 
 .projectContainer {
@@ -142,6 +142,10 @@ header {
   margin-left: 20%;
   display: flex;
   margin-bottom: 140px;
+
+  /* scrolltrigger */
+  /* margin-top: 100px */
+  opacity: 0;
 }
 
 .projectImg {

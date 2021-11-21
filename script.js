@@ -1,5 +1,6 @@
 "use strict";
 
+//gsap.registerPugin(ScrollTrigger);
 window.addEventListener("DOMContentLoaded", animateLanding);
 
 function animateLanding() {
@@ -32,15 +33,14 @@ function animateLanding() {
 
   const headingDesc = document.querySelector(".description");
   const animationHeadingDesc = headingDesc.animate(keayframesHeadingDescription, landing);
-
-  animateProjects();
 }
 
-function animateProjects() {
-  gsap.to(".projectContainer", {
-    duration: 1,
-
-    //opacity: 1,
-    scrollTrigger: { trigger: ".projectContainer", start: "top 80%", end: "top 20%" },
-  });
-}
+gsap.to(".projectContainer", {
+  scrollTrigger: {
+    trigger: ".projectContainer",
+    start: "top 80%",
+  },
+  y: -100,
+  opacity: 1,
+  duration: 1,
+});
