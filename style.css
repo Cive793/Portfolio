@@ -134,6 +134,8 @@ header {
   font-size: 68.4px;
   text-align: center;
   margin-top: 0;
+
+  /* scrolltrigger +100px*/
   margin-bottom: 240px;
 }
 
@@ -144,7 +146,6 @@ header {
   margin-bottom: 140px;
 
   /* scrolltrigger */
-  /* margin-top: 100px */
   opacity: 0;
 }
 

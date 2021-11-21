@@ -2,6 +2,7 @@
 
 //gsap.registerPugin(ScrollTrigger);
 window.addEventListener("DOMContentLoaded", animateLanding);
+const projects = gsap.utils.toArray(".projectContainer");
 
 function animateLanding() {
   const landing = {
@@ -33,14 +34,20 @@ function animateLanding() {
 
   const headingDesc = document.querySelector(".description");
   const animationHeadingDesc = headingDesc.animate(keayframesHeadingDescription, landing);
+
+  animateProjects();
 }
 
-gsap.to(".projectContainer", {
-  scrollTrigger: {
-    trigger: ".projectContainer",
-    start: "top 80%",
-  },
-  y: -100,
-  opacity: 1,
-  duration: 1,
-});
+function animateProjects() {
+  projects.forEach((project) => {
+    gsap.to(project, {
+      scrollTrigger: {
+        trigger: project,
+        start: "top 90%",
+      },
+      y: -100,
+      opacity: 1,
+      duration: 1,
+    });
+  });
+}
