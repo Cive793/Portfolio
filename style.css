@@ -144,9 +144,15 @@ header {
   margin-left: 20%;
   display: flex;
   margin-bottom: 140px;
+  transition: scale 0.1s;
 
   /* scrolltrigger */
   opacity: 0;
+}
+
+.projectContainer:hover {
+  scale: 0.99;
+  transition: all 0.1s ease-in-out;
 }
 
 .projectImg {
@@ -245,9 +251,23 @@ header {
 .in,
 .gh {
   width: 55px;
+  transition: scale 0.1s;
 }
 
 .fb {
   width: 50px;
   height: 55px;
+  transition: scale 0.1s;
+}
+
+.ig:hover,
+.in:hover,
+.gh:hover {
+  scale: 0.95;
+  transition: all 0.1s ease-in-out;
+}
+
+.fb:hover {
+  scale: 0.95;
+  transition: all 0.1s ease-in-out;
 }
