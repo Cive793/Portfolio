@@ -38,6 +38,26 @@ header {
   margin: 2rem;
   font-size: 25px;
   color: #707070;
+  position: relative;
+}
+
+/* link underlines */
+.sectionLink:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 0, 0, 0.65);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.sectionLink:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .sectionLinkLast {
@@ -45,6 +65,25 @@ header {
   margin-right: 8px;
   font-size: 25px;
   color: #707070;
+  position: relative;
+}
+
+.sectionLinkLast:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 0, 0, 0.65);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.sectionLinkLast:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 #landing {
@@ -185,6 +224,25 @@ header {
   font-size: 22px;
   margin-right: 2rem;
   font-weight: 400;
+  position: relative;
+}
+
+.projectText a:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 0, 0, 0.65);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.projectText a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .projectTextRight {
@@ -212,6 +270,25 @@ header {
   font-size: 22px;
   margin-right: 2rem;
   font-weight: 400;
+  position: relative;
+}
+
+.projectTextRight a:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 0, 0, 0.65);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.projectTextRight a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 #contact {
