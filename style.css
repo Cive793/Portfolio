@@ -293,7 +293,7 @@ header {
 
 #contact {
   width: 100%;
-  min-height: 60vh;
+  height: 60vh;
   background-color: rgba(255, 0, 0, 0.65);
   display: flex;
   justify-content: center;
@@ -303,7 +303,7 @@ header {
   color: white;
   font-size: 25px;
   text-align: center;
-  margin-top: 140px;
+  margin-top: 120px;
 }
 
 .contactText span {
@@ -351,9 +351,76 @@ header {
 
 /* media queries */
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1500px) {
   .landingContainer {
     width: 66%;
     margin-left: 17%;
+  }
+  .name {
+    top: 210px;
+  }
+  .description {
+    top: 250px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .projectContainer {
+    width: 70%;
+    margin-left: 15%;
+  }
+  .projectImg {
+    width: 300px;
+    height: 300px;
+  }
+  .aboutContainer {
+    width: 60%;
+  }
+  .hi {
+    font-size: 62px;
+  }
+  .aboutText {
+    font-size: 22px;
+  }
+  .aboutTextFirst {
+    font-size: 22px;
+  }
+  #contact {
+    height: 50vh;
+  }
+  .contactContainer {
+    width: 40%;
+  }
+  .contactText {
+    font-size: 22px;
+  }
+  .contactText span {
+    font-size: 22px;
+  }
+  .soMe {
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .landingContainer {
+    width: 76%;
+    margin-left: 12%;
+  }
+  .description {
+    font-size: 62px;
+  }
+  .aboutContainer {
+    width: 70%;
+  }
+  .hi {
+    font-size: 60px;
+  }
+  .aboutText {
+    font-size: 20px;
+  }
+  .aboutTextFirst {
+    font-size: 20px;
   }
 }
