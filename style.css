@@ -318,6 +318,8 @@ header {
 .soMe {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
+  height: auto;
   width: 400px;
   margin-left: auto;
   margin-right: auto;
@@ -327,6 +329,7 @@ header {
 .ig,
 .in,
 .gh {
+  margin-bottom: auto;
   width: 50px;
   transition: scale 0.2s;
 }
@@ -357,15 +360,14 @@ header {
     margin-left: 17%;
   }
   .name {
-    top: 210px;
+    top: 200px;
   }
   .description {
-    top: 250px;
+    top: 240px;
   }
-}
-
-#contact {
-  height: 50vh;
+  #contact {
+    height: 50vh;
+  }
 }
 
 @media only screen and (max-width: 1300px) {
@@ -390,7 +392,7 @@ header {
     font-size: 22px;
   }
   #contact {
-    height: 50vh;
+    height: 45vh;
   }
   .contactContainer {
     width: 40%;
@@ -426,5 +428,77 @@ header {
   }
   .aboutTextFirst {
     font-size: 20px;
+  }
+  .projectContainer {
+    width: 76%;
+    margin-left: 12%;
+  }
+  .projectsHeading {
+    font-size: 62px;
+  }
+  .projectImg {
+    width: 260px;
+    height: 260px;
+  }
+  .projectText h2 {
+    font-size: 36px;
+  }
+  .projectText p {
+    font-size: 16px;
+  }
+  .projectText a {
+    font-size: 20px;
+  }
+  .projectTextRight h2 {
+    font-size: 36px;
+  }
+  .projectTextRight p {
+    font-size: 16px;
+  }
+  .projectTextRight a {
+    font-size: 20px;
+  }
+  #contact {
+    height: 45vh;
+  }
+  .contactText {
+    font-size: 20px;
+  }
+  .contactText span {
+    font-size: 20px;
+  }
+  .soMe {
+    width: 320px;
+  }
+  .ig,
+  .in,
+  .gh {
+    width: 45px;
+  }
+  .fb {
+    width: 40px;
+    height: 45px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .landingContainer {
+    width: 74%;
+    margin-left: 13%;
+    margin-top: 150px;
+  }
+  .name {
+    font-size: 26px;
+    top: 260px;
+  }
+  .description {
+    font-size: 50px;
+    top: 300px;
+  }
+  .portrait {
+    width: 550px;
+  }
+  .projectsHeading {
+    font-size: 50px;
   }
 }
