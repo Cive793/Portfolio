@@ -502,3 +502,27 @@ header {
     font-size: 50px;
   }
 }
+
+@media only screen and (max-width: 850px) {
+  .landingContainer {
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+  .name {
+    top: 200px;
+  }
+  .description {
+    top: 240px;
+    max-width: 70%;
+    font-size: 45px;
+  }
+  .portrait {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+}
