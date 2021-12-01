@@ -154,6 +154,7 @@ header {
   margin-top: 30px;
   margin-bottom: 30px;
   text-align: justify;
+  line-height: 1.5;
 }
 
 .aboutTextFirst {
@@ -192,6 +193,10 @@ header {
 .projectContainer:hover {
   scale: 0.99;
   transition: all 0.2s ease-in-out;
+}
+
+.projectContainerLast {
+  margin-bottom: 140px;
 }
 
 .projectImg {
@@ -303,7 +308,8 @@ header {
   color: white;
   font-size: 25px;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 80px;
+  line-height: 1.5;
 }
 
 .contactText span {
@@ -504,17 +510,32 @@ header {
 }
 
 @media only screen and (max-width: 850px) {
+  header {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .logo {
+    font-size: 50px;
+  }
+  .sectionLink {
+    font-size: 20px;
+    margin: 1.2rem;
+  }
+  .sectionLinkLast {
+    font-size: 20px;
+    margin-left: 1.2rem;
+  }
   .landingContainer {
-    margin-top: 250px;
+    margin-top: 240px;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
   }
   .name {
-    top: 200px;
+    top: 190px;
   }
   .description {
-    top: 240px;
+    top: 230px;
     max-width: 70%;
     font-size: 45px;
   }
@@ -524,5 +545,62 @@ header {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+  }
+  .hi {
+    font-size: 54px;
+  }
+  .aboutText {
+    font-size: 18px;
+  }
+  .aboutTextFirst {
+    font-size: 18px;
+  }
+  #projects {
+    margin-top: 100px;
+  }
+  .projectsHeading {
+    font-size: 45px;
+  }
+  .projectContainer {
+    margin-bottom: 100px;
+    width: 70%;
+    margin-left: 15%;
+  }
+  .projectContainerLast {
+    margin-bottom: 60px;
+  }
+
+  .projectImg {
+    width: 220px;
+    height: 220px;
+  }
+  .projectText h2 {
+    font-size: 32px;
+  }
+
+  #contact {
+    height: 40vh;
+  }
+  .contactContainer {
+    width: 60%;
+  }
+  .contactText {
+    font-size: 18px;
+  }
+  .contactText span {
+    font-size: 20px;
+  }
+  .soMe {
+    width: 320px;
+    margin-top: 60px;
+  }
+  .ig,
+  .in,
+  .gh {
+    width: 40px;
+  }
+  .fb {
+    width: 35px;
+    height: 40px;
   }
 }
