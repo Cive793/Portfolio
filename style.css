@@ -657,18 +657,33 @@ header {
     align-items: center;
   }
   .projectImg {
-    width: 220px;
-    height: 220px;
+    width: 80%;
+    height: auto;
     order: -1;
+  }
+  .projectsHeading {
+    margin-bottom: 200px;
   }
   .projectText {
     width: 80%;
     margin: 0;
-    /* line-height: 2; */
+    margin-top: 30px;
+  }
+  .projectText p {
+    text-align: justify;
+    line-height: 1.6;
+    hyphens: auto;
   }
   .projectTextRight {
     width: 80%;
     margin: 0;
-    /* line-height: 2; */
+    margin-top: 30px;
   }
+  .projectTextRight p {
+    text-align: justify;
+    line-height: 1.6;
+  }
+}
+
+@media only screen and (max-width: 550px) {
 }
