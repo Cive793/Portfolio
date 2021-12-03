@@ -710,10 +710,10 @@ header {
     margin-left: auto;
     flex-direction: column;
     justify-content: space-between;
-    height: 120px;
+    height: 130px;
   }
   .landingContainer {
-    margin-top: 280px;
+    margin-top: 270px;
   }
   .name {
     top: 240px;
@@ -737,5 +737,30 @@ header {
   .aboutText {
     hyphens: auto;
     line-height: 1.6;
+  }
+  .projectsHeading {
+    font-size: 43px;
+  }
+  .projectText {
+    width: 80%;
+  }
+  .projectContainerLast {
+    margin-bottom: 20px;
+  }
+  .contactContainer {
+    width: 80%;
+  }
+  .contactText {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .ig,
+  .in,
+  .gh {
+    width: 35px;
+  }
+  .fb {
+    width: 30px;
+    height: 35px;
   }
 }
