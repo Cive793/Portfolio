@@ -146,6 +146,8 @@ header {
 .hi {
   color: white;
   font-size: 65px;
+  margin-bottom: -10px;
+  display: inline-block;
 }
 
 .aboutText {
@@ -709,5 +711,31 @@ header {
     flex-direction: column;
     justify-content: space-between;
     height: 120px;
+  }
+  .landingContainer {
+    margin-top: 280px;
+  }
+  .name {
+    top: 240px;
+    font-size: 24px;
+  }
+  .description {
+    top: 280px;
+    font-size: 45px;
+  }
+  #about {
+    height: 80vh;
+  }
+  .hi {
+    margin-bottom: -20px;
+    display: inline-block;
+  }
+  .aboutTextFirst {
+    hyphens: auto;
+    line-height: 1.6;
+  }
+  .aboutText {
+    hyphens: auto;
+    line-height: 1.6;
   }
 }
