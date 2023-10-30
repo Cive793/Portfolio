@@ -314,7 +314,7 @@ header {
   line-height: 1.5;
 }
 
-.contactText span {
+.contactText a {
   font-weight: 500;
   color: #9e0000;
 }
