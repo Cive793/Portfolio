@@ -721,14 +721,14 @@ header {
     height: 130px;
   }
   .landingContainer {
-    margin-top: 270px;
+    margin-top: 180px;
   }
   .name {
-    top: 240px;
+    top: 230px;
     font-size: 24px;
   }
   .description {
-    top: 280px;
+    top: 270px;
     font-size: 45px;
   }
   #about {
