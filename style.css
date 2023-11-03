@@ -327,7 +327,7 @@ header {
 
 .soMe {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-end;
   height: auto;
   width: 400px;
@@ -479,7 +479,7 @@ header {
     font-size: 20px;
   }
   .soMe {
-    width: 320px;
+    width: auto;
   }
   .ig,
   .in,
@@ -596,7 +596,7 @@ header {
     font-size: 20px;
   }
   .soMe {
-    width: 320px;
+    width: auto;
     margin-top: 60px;
   }
   .ig,
@@ -611,6 +611,11 @@ header {
 }
 
 @media only screen and (max-width: 700px) {
+  header {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
   .landingContainer {
     margin-top: 240px;
     margin-left: auto;
@@ -759,8 +764,8 @@ header {
     width: 80%;
   }
   .contactText {
-    width: 80%;
-    margin-left: 10%;
+    width: 100%;
+    /*margin-left: 10%;*/
   }
   .ig,
   .in,
